@@ -87,6 +87,10 @@ Sistem ini mendukung fitur CRUD untuk pengguna, dokter, perawat, dan rekam medis
 
     ![image](https://github.com/user-attachments/assets/ce4f84e4-41f4-4372-b250-c0e86fa52100)
 
+    ![image](https://github.com/user-attachments/assets/b87a6168-2f84-4b25-97df-387afe769112)
+
+    ![image](https://github.com/user-attachments/assets/0605ab00-7661-498a-8109-9d9db0a8d60c)
+
     ![image](https://github.com/user-attachments/assets/d5a07bbc-222f-4496-ba9a-21252f328edf)
 
     ![image](https://github.com/user-attachments/assets/58771026-35aa-4873-8997-d19b738bc160)
