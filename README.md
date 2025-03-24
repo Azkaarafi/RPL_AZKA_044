@@ -8,26 +8,26 @@ dan bersifat rahasia bagi rumah sakit itu sendiri. Sehingga hanya pihak pihak te
 Sistem ini mendukung fitur CRUD untuk pengguna, dokter, perawat, dan rekam medis.
 
 1. Jenis Aplikasi
-Aplikasi Rekam Medis Sederhana berbasis Web dengan Laravel + MySQL.
+      Aplikasi Rekam Medis Sederhana berbasis Web dengan Laravel + MySQL.
 
 2. Pemilihan Database dan Framework
-Framework: Laravel
-
--Laravel menyediakan ORM (Eloquent) yang mempermudah pengelolaan database.
-
--Memiliki fitur built-in untuk autentikasi yang mempermudah pengelolaan login dokter dan perawat.
-
--Mendukung routing dan middleware untuk mengatur akses berdasarkan peran pengguna.
-
-Database: MySQL
-
--Cocok untuk data yang terstruktur (pasien, dokter, rekam medis).
-
--Mendukung transaksi ACID untuk integritas data.
-
--Mudah diintegrasikan dengan Laravel melalui Eloquent ORM.
-
--Memungkinkan penggunaan relasi antar tabel untuk menghubungkan data pengguna, dokter, perawat, dan rekam medis.
+      Framework: Laravel
+      
+      -Laravel menyediakan ORM (Eloquent) yang mempermudah pengelolaan database.
+      
+      -Memiliki fitur built-in untuk autentikasi yang mempermudah pengelolaan login dokter dan perawat.
+      
+      -Mendukung routing dan middleware untuk mengatur akses berdasarkan peran pengguna.
+      
+      Database: MySQL
+      
+      -Cocok untuk data yang terstruktur (pasien, dokter, rekam medis).
+      
+      -Mendukung transaksi ACID untuk integritas data.
+      
+      -Mudah diintegrasikan dengan Laravel melalui Eloquent ORM.
+      
+      -Memungkinkan penggunaan relasi antar tabel untuk menghubungkan data pengguna, dokter, perawat, dan rekam medis.
 
 
 3. Struktur Database
@@ -61,18 +61,22 @@ Database: MySQL
 6. Justifikasi Pemilihan Database
 
 
-   Menggunakan MySQL sebagai relational database karena:
+      Menggunakan MySQL sebagai relational database karena:
+      
+      -Data pasien, dokter, dan perawat memiliki hubungan tetap dan terstruktur.
+      
    
-   -Data pasien, dokter, dan perawat memiliki hubungan tetap dan terstruktur.
-
-   -MySQL mendukung JOIN query, yang diperlukan untuk menghubungkan tabel seperti dokter dengan rekam medis.
+      -MySQL mendukung JOIN query, yang diperlukan untuk menghubungkan tabel seperti dokter dengan rekam medis.
    
-   -Keamanan data lebih terjamin dengan fitur transaksi ACID.
+      
+      -Keamanan data lebih terjamin dengan fitur transaksi ACID.
 
 8.  Penggunaan Fitur Penting dari Database  
-   -JOIN Query digunakan untuk menampilkan rekam medis berdasarkan dokter atau perawat.
-   -ENUM digunakan dalam tabel regis untuk membatasi role pengguna ke 'dokter' dan 'perawat'.
-   -Foreign Key untuk menjaga integritas data antara tabel regis, dokter, perawat, dan rekam_medis.
+      -JOIN Query digunakan untuk menampilkan rekam medis berdasarkan dokter atau perawat.
+    
+      -ENUM digunakan dalam tabel regis untuk membatasi role pengguna ke 'dokter' dan 'perawat'.
+    
+      -Foreign Key untuk menjaga integritas data antara tabel regis, dokter, perawat, dan rekam_medis.
 
     beberapa overview aplikasi:
 
